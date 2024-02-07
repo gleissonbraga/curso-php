@@ -1,0 +1,8 @@
+comandos
+
+<?= ?>: sigla de abertura e fechamento para utilização do PHP
+<?php sigla que se não tiver formatação de html a baixo não tem necessidade de ser fechada
+
+echo: mostra o conteúdo na tela
+
+var_dump: trás informações sobre a variável
