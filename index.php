@@ -58,6 +58,71 @@
                         <li>
                             <a href="exercicio.php?dir=tipos&file=string">Tipo string</a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=tipos&file=desafio_string">Desafio String</a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=tipos&file=booleano">Tipo Booleano</a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=tipos&file=conversoes">Conversoes</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modulo azul">
+                    <h3>Módulo 03</h3>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=variaveis&file=basico">Variáveis</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=variaveis&file=desafio_equacao">Desafio equação</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=variaveis&file=atribuicoes">Atribuições</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=variaveis&file=interpolacao">Interpolacao</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=variaveis&file=variaveisvariaveis">Variáveis Varáveis</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=variaveis&file=desafiovariaveisvariaveis">Desafio Varáveis</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=variaveis&file=valor_referencia">Valor vs Referencia</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=variaveis&file=constantes">Constantes</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modulo roxo">
+                    <h3>Módulo 04</h3>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=estruturasDeControle&file=ifElse">If/Else</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=estruturasDeControle&file=operadores_relacionais">Operadores Relacionais</a>
+                        </li>
                     </ul>
                 </div>
             </nav>
