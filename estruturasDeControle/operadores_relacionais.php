@@ -2,6 +2,15 @@
     <h1>Operadores Relacionais</h1>
 </div>
 
+<style>
+    p{
+        margin-bottom: 0;
+    }
+    hr {
+        margin-top: 0px;
+    }
+</style>
+
 <?php
 
 var_dump(1 == 1);
@@ -28,3 +37,14 @@ if($idade < 18) {
 } else {
     echo "Terceira idade = $idade";
 }
+
+echo '<p>Spaceship</p><hr>';
+var_dump(5 <=> 3);
+var_dump(50 <=> 50);
+var_dump(5 <=> 50);
+
+echo '<p>Valores podem ser V ou F</p><hr>';
+var_dump(!!5);
+var_dump(!!0);
+var_dump(!!"");
+var_dump(!!" ");

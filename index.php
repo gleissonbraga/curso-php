@@ -124,6 +124,74 @@
                             <a href="exercicio.php?dir=estruturasDeControle&file=operadores_relacionais">Operadores Relacionais</a>
                         </li>
                     </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=estruturasDeControle&file=desafio_PI">Desafio PI</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=estruturasDeControle&file=operadores_logicos">Operadores Lógicos</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=estruturasDeControle&file=desafio_operadores_logicos">Desafio Operadores Lógicos</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=estruturasDeControle&file=operador_ternario">Operador Ternario</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=estruturasDeControle&file=switch">Switch</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=estruturasDeControle&file=desafio_switch">Desafio Switch</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modulo laranja">
+                    <h3>Módulo 05</h3>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=array&file=basico">Básico Array</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=array&file=mapa">Mapa</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=array&file=desafio_index">Desafio Index</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=array&file=desafio_meses">Desafio Meses</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=array&file=operacoes">Operações</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=array&file=desafio_sorteio">Desafio Sorteio</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=array&file=multidimensionais">Array Multidimensionais</a>
+                        </li>
+                    </ul>
                 </div>
             </nav>
         </div>
