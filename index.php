@@ -192,7 +192,64 @@
                             <a href="exercicio.php?dir=array&file=multidimensionais">Array Multidimensionais</a>
                         </li>
                     </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=array&file=constantes">Array Constantes</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=array&file=get">$_GET</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=array&file=post">$_POST</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=array&file=comparacao">Comparação entre Arrays</a>
+                        </li>
+                    </ul>
                 </div>
+                <div class="modulo verde-escuro">
+                    <h3>Módulo 06</h3>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=repeticoes&file=for">For</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=repeticoes&file=desafio_for">Desafio For</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=repeticoes&file=forEach">forEach</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=repeticoes&file=break">Break</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=repeticoes&file=desafio_impressao">Desafio Impressão   while_dowhile</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=repeticoes&file=while_dowhile">While/DoWhile</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=repeticoes&file=desafio_tabela">Desafio Tabela</a>
+                        </li>
+                    </ul>
             </nav>
         </div>
     </main>
