@@ -298,6 +298,44 @@
                             <a href="exercicio.php?dir=funcoes&file=closure_callable">Closure e Callable</a>
                         </li>
                     </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=funcoes&file=recursividade">Recursividade</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=funcoes&file=desafio_recursividade">Desafio Recursividade</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=funcoes&file=retornando_funcao">Retornando função</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=funcoes&file=map_filter">Map e Filter</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modulo azul-escuro">
+                    <h3>Módulo 07</h3>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=poo&file=classe">Funções e Escopo</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=poo&file=desafio_classe_data">Desafio Classe Data</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=poo&file=construtor_destrutor">Contrutor e Destrutor</a>
+                        </li>
+                    </ul>
                 </div>
             </nav>
         </div>

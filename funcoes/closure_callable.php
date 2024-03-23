@@ -28,3 +28,4 @@ $soma1 = 1;
 echo (is_callable($soma1) ? 'Sim' : 'Não') . '<br>';
 
 var_dump($soma1);
+
