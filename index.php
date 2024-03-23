@@ -250,6 +250,55 @@
                             <a href="exercicio.php?dir=repeticoes&file=desafio_tabela">Desafio Tabela</a>
                         </li>
                     </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=repeticoes&file=desafio_tabela_dois">Desafio Tabela 2</a>
+                        </li>
+                    </ul>
+                </div> 
+                <div class="modulo vermelho-escuro">
+                    <h3>Módulo 06</h3>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=funcoes&file=funcao_escopo">Funções e Escopo</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=funcoes&file=argumentos">Argumentos e Retorno  desafio_palindromo</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=funcoes&file=desafio_palindromo">Desafio Palindromo</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=funcoes&file=args_variaveis">Argumentos Variáveis</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=funcoes&file=arg_padrao">Argumento Padrão</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=funcoes&file=usando_tipos">Usando Tipos</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=funcoes&file=func_anonimas">Função Anonima</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=funcoes&file=closure_callable">Closure e Callable</a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </div>
     </main>

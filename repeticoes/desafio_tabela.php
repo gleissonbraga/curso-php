@@ -1,4 +1,4 @@
-<div class="titulo"><h1>Desafio impressão</h1></div>
+<div class="titulo"><h1>Desafio Tabela #01</h1></div>
 
 <!--
 
@@ -22,14 +22,29 @@ foreach($matriz as $linha) {
 
 ?>
 
+<table>
+    <?php
+        foreach($matriz as $linha) {
+            echo '<tr>';
+            foreach($linha as $valor) {
+                echo "<td>$valor</td>";
+            }
+        }
+        echo '</tr>';
+    ?>
+</table>
 
 <table>
-    <caption>Elementos</caption>
-    <tr>
-        <th name="elemento 1"></th>
-        <th name="elemento 2"></th>
-
-    </tr>
+    <?php
+        foreach($matriz as $index => $linha) {
+            $style = $index % 2 === 0 ? 'background-color: lightblue;' : '';
+            echo "<tr style='{$style}'>";
+            foreach($linha as $valor){
+                echo "<td>$valor</td>";
+            }
+            echo "<tr>";
+        }
+    ?>
 </table>
 
 <style>

@@ -34,7 +34,7 @@ echo '<hr>';
 
 $numeros = [1, 2, 3, 4, 5];
 
-// o simbolo & faz a troca do valor na memória de cada indice mudando le no array, 
+// o simbolo & faz a troca do valor na memória de cada indice mudando ele no array, 
 // já se não for utilizado ele muda na impressão porém não é modificado no array
 
 foreach ($numeros as &$dobrar) {

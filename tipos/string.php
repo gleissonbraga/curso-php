@@ -28,5 +28,5 @@ echo '<br>' . ucfirst('Só a primeira letra');
 echo '<br>' . ucwords('todas as palavras');
 echo '<br>' . strlen('Quantas letras?');
 echo '<br>' . mb_strlen('Eu támbem', "utf-8"); // retira o acento da contagem da string
-echo '<br>' . substr('Só uma parte mesmop', 7, 6); // selecionou parte
+echo '<br>' . substr('Só uma parte mesmo', 7, 6); // selecionou parte
 echo '<br>' . str_replace('Isso', 'aquilo', 'trocar Isso');
