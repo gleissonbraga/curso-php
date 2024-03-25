@@ -336,6 +336,21 @@
                             <a href="exercicio.php?dir=poo&file=construtor_destrutor">Contrutor e Destrutor</a>
                         </li>
                     </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=poo&file=heranca">Herança</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=poo&file=visibilidade">Visibilidade</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=poo&file=static">Membros Estáticos</a>
+                        </li>
+                    </ul>
                 </div>
             </nav>
         </div>
