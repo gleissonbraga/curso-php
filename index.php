@@ -381,6 +381,49 @@
                             <a href="exercicio.php?dir=poo&file=traits_02">Traits 2</a>
                         </li>
                     </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=poo&file=metodos_magicos">Metodos Mágicos</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=poo&file=polimorfismo">Polimorfismo</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modulo roxo-escuro">
+                    <h3>Módulo 08</h3>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=includes&file=include">Include</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=includes&file=include_funcao">Include Fução</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=includes&file=includeVsRequire">Include VS Require</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=includes&file=return_require">Require e Return</a>includeERequire_once
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=includes&file=include_once">Include Once e Require once</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=includes&file=desafio">Desafio Módulo</a>
+                        </li>
+                    </ul>
                 </div>
             </nav>
         </div>
