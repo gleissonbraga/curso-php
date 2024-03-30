@@ -1,3 +1,14 @@
+<?php 
+session_start();
+if($_COOKIE['usuario']){
+    $_SESSION['usuario'] = $_COOKIE['usuario'];
+}
+
+if(!$_SESSION['usuario']) {
+    header('Location: login.php');
+}
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -16,6 +27,13 @@
         <h1>Curso PHP</h1>
         <h2>Índice dos Exercícios</h2>
     </header>
+
+    <nav class="navegacao">
+        <span class="usuario">
+            Usuário: <?= $_SESSION['usuario'] ?>
+        </span>
+        <a href="logout.php" class="vermelho">Sair</a>
+    </nav>
 
     <main class="principal">
         <div class="conteudo">
@@ -422,6 +440,60 @@
                     <ul>
                         <li>
                             <a href="exercicio.php?dir=includes&file=desafio">Desafio Módulo</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modulo laranja-escuro">
+                    <h3>Módulo 09</h3>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=namespace&file=basico">Namespace</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=namespace&file=sub_namespace">Sub-namespace</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=namespace&file=use_as">Use/As</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modulo verde">
+                    <h3>Módulo 10</h3>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=tratamento_erro&file=try_catch">Try e Catch</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=tratamento_erro&file=erros_personalizados">Erros Personalizados</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=tratamento_erro&file=desafio_intdiv_teste">Desafio intdiv</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=tratamento_erro&file=erro_handler">Erro Handler</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modulo vermelho">
+                    <h3>Módulo 11</h3>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=sessao&file=basico_sessao">Sessao</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=sessao&file=gerenciamento_sessao">Gerenciamento Sessão</a>
                         </li>
                     </ul>
                 </div>
