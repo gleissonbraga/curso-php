@@ -497,6 +497,24 @@ if(!$_SESSION['usuario']) {
                         </li>
                     </ul>
                 </div>
+                <div class="modulo azul">
+                    <h3>Módulo 12</h3>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=api&file=datas_01">Datas 01</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=api&file=datas_02">Datas 02</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=api&file=escrever_arquivo">Escrever Arquivo</a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </div>
     </main>
