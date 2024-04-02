@@ -514,6 +514,34 @@ if(!$_SESSION['usuario']) {
                             <a href="exercicio.php?dir=api&file=escrever_arquivo">Escrever Arquivo</a>
                         </li>
                     </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=api&file=ler_arquivo">Ler Arquivo</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=api&file=upload">Upload de Arquivo</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=api&file=download">Download</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modulo roxo">
+                    <h3>Módulo 13</h3>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=formulario&file=formulario">Formulario</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=sessao&file=gerenciamento_sessao">Gerenciamento Sessão</a>
+                        </li>
+                    </ul>
                 </div>
             </nav>
         </div>
