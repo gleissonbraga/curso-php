@@ -543,6 +543,29 @@ if(!$_SESSION['usuario']) {
                         </li>
                     </ul>
                 </div>
+                <div class="modulo laranja">
+                    <h3>Módulo 14</h3>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=db&file=criar_banco">Criar Banco de dados</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=db&file=criar_tabela">Criar tabela</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=db&file=inserir">Inserir Registro</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=db&file=consultar">Consultar Registro</a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </div>
     </main>
