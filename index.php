@@ -565,6 +565,16 @@ if(!$_SESSION['usuario']) {
                             <a href="exercicio.php?dir=db&file=consultar">Consultar Registro</a>
                         </li>
                     </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=db&file=excluir1">Excluir Registro 01</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=db&file=excluir2">Excluir Registro 02</a>
+                        </li>
+                    </ul>
                 </div>
             </nav>
         </div>
