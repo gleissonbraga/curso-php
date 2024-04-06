@@ -1,7 +1,29 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<div class="titulo"><h1>Inserir Registro #02</h1></div>
+<div class="titulo"><h1>Alterar Registro </h1></div>
 
 <?php
+require_once "conexao.php";
+$conexao = novaConexao();
+
+if($_GET['codigo']) {
+    $sql = "SELECT * FROM cadastro WHERE id = ?";
+    $stmt = $conexao->prepare($sql);
+    $stmt->bind_param("i", $_GET['codigo']);
+
+    if($stmt->execute()) {
+        $resultado = $stmt->get_result();
+        if($resultado->num_rows > 0){
+            $dados = $resultado->fetch_assoc();
+            if($dados['nascimento']){
+                $dt = new DateTime($dados['nascimento']);
+                $dados['nascimento'] = $dt->format('d/m/Y');
+            }
+            if($dados['salario']){
+                $dados['salario'] = str_replace(".", ",", $dados['salario']);
+            }
+        }
+    }
+}
 
 if(count($_POST) > 0){
     $dados = $_POST;
@@ -39,12 +61,10 @@ if(count($_POST) > 0){
     }
 
     if(!count($erros)) {
-        require_once "conexao.php";
 
-        $sql = "INSERT INTO cadastro(nome, nascimento, email, site, filhos, salario)
-        VALUES(?, ?, ?, ?, ?, ?)";
+        $sql = "UPDATE cadastro SET nome = ?, nascimento = ?, email = ?, site = ?, filhos = ?, salario = ?
+        WHERE id = ?";
 
-        $conexao = novaConexao();
         $stmt = $conexao->prepare($sql);
 
         $params = [
@@ -53,10 +73,11 @@ if(count($_POST) > 0){
             $dados['email'],
             $dados['site'],
             $dados['filhos'],
-            $dados['salario'],
+            $dados['salario'] ? str_replace(".", ",", $dados['salario']): null,
+            $dados['id'],
         ];
 
-        $stmt->bind_param("ssssid", ...$params);
+        $stmt->bind_param("ssssidi", ...$params);
 
         if($stmt->execute()) {
             unset($dados);
@@ -73,7 +94,22 @@ if(count($_POST) > 0){
    <!-- </div>-->
 <?php endforeach ?>
 
+<form action="/exercicio.php" method="get">
+    <input type="hidden" name="dir" value="db">
+    <input type="hidden" name="file" value="alterar">
+    <div class="form-group row">
+        <div class="col-sm-10">
+            <input type="number" name="codigo" value="<?= $_GET['codigo'] ?>" 
+            placeholder="Informe o código para consultar" class="form-control">
+        </div>
+        <div class="col-sm-2">
+            <button class="btn btn-success mb-4">Consultar</button>
+        </div>
+    </div>
+</form>
+
 <form action="#" method="post">
+    <input type="hidden" name="id" value="<?= $dados['id'] ?>">
     <div class="form-row">
         <div class="form-group col-md-8">
             <label for="nome">Nome</label>

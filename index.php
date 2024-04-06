@@ -575,6 +575,36 @@ if(!$_SESSION['usuario']) {
                             <a href="exercicio.php?dir=db&file=excluir2">Excluir Registro 02</a>
                         </li>
                     </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=db&file=inserir2">Inserir Registro 02</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=db&file=alterar">Alterar Registros</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=db&file=inserir_pdo">Inserir PDO</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=db&file=consultar_pdo">Consultar PDO</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=db&file=excluir_pdo">Excluir PDO</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=db&file=alterar_pdo">Alterar PDO</a>
+                        </li>
+                    </ul>
                 </div>
             </nav>
         </div>
